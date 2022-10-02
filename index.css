@@ -1,0 +1,26 @@
+
+
+.mainblock
+{
+    margin 0 auto; position: static; width:100%;
+}
+.txet
+{
+    float: right; position: static; width:70%;  
+}
+.txet::first-letter
+{
+    color: red;
+}
+.leftblock
+{
+    float: left; background-color:red; color:white; padding:20px ;
+}
+a
+{
+    color:white
+}
+a:hover 
+{
+background-color: green;
+}
