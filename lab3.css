@@ -1,26 +1,74 @@
-
-
-.mainblock
-{
-    margin 0 auto; position: static; width:100%;
+html {
+    height: 100%;
 }
-.txet
-{
-    float: right; position: static; width:70%;  
+body {
+    height: 100%;
+    font-size: 14px;
+    margin: 0;
+    color: white;
+    font-family: 'Lexend', sans-serif;
 }
-.txet::first-letter
-{
+h2, h4 {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: white;
+}
+*{
+    box-sizing: border-box;
+}
+header {
+    padding: 10px 0;
+    font-size: 20px;
+    text-align: center;
+    background-color: green;
+}
+.container {
+    display: flex;
+    max-width: 676px;
+    min-height: 90%;
+    margin: 0 auto;
+    justify-content:space-around;
+}
+.nav {
+    min-width: 180px; 
+    display: flex;
+    background-color: red;
+    flex-direction: column;
+}
+.nav__link {
+    margin: 0;
+    margin-left: 35px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+.nav__link:first-child {
+    margin-top: 25px;
+}
+.nav__link:hover {
+    background-color: green;
+    border-radius: 3px;
+}
+.content {
+    padding: 0 20px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: black;
+    text-align: justify;
+}
+.content::first-letter {
     color: red;
+    font-size: larger;
 }
-.leftblock
-{
-    float: left; background-color:red; color:red; padding:20px ;
+.content::selection {
+    color: white;
+    background: green;
 }
-a
-{
-    color:white
-}
-a:hover 
-{
-background-color: green;
+#footer {
+    width: 100%;
+    font-size: 12px;
+    padding: 7px 0;
+    text-align: center;
+    background-color: black;    
 }
